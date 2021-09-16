@@ -31,7 +31,7 @@ class ViewModel: ObservableObject {
 
 
     init() {
-        // TODO: Instantiate 3 or more albums with data.
+        // TODO: Initialize 3 or more albums with data.
 
         
         
@@ -47,7 +47,7 @@ class ViewModel: ObservableObject {
     }
 
 
-    // TODO: Update variables: albumIdx, trackIdx, coverImage, albumName, artist, track
+    // TODO: Update variables: albumIdx, trackIdx, coverImage, albumName, artist, currentTrack
     func nextAlbumButtonPressed() {
         print("🔺 Did press Next Album")
 
